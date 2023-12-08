@@ -10,7 +10,6 @@ with open("input.txt","r") as f:
         nums_have = [int(val) for val in nums[1].split()]
         
         lst = [value for value in win_nums if value in  nums_have]
-        print("len lst: ",len(lst))
         if not len(lst) == 0:
             cnt = 2**(len(lst)-1) 
         points += cnt
