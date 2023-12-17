@@ -16,7 +16,7 @@ for t,d in zip(times,distance):
         if travelDis > d:
             cnt +=1
     ans *= cnt
-print(ans)
+print(ans) # part1:608902
 
 
 
