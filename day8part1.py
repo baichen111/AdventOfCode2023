@@ -14,7 +14,6 @@ maps = {x[0]:(x[1][0][-3:],x[1][1][1:4]) for x in ls}
 start = 'AAA'
 count = 0
 for lr in cycle(directions):
-    print(start)
     if start == 'ZZZ':
         break
     if lr == 'L':
