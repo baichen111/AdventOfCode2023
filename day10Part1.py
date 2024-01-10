@@ -115,7 +115,6 @@ def isValid_neighbor(cur_pipe:str, offset:list, n_row:int , n_col:int):  #check 
                      
 offsets = [[0,1],[1,0],[0,-1],[-1,0]]
 start_row,start_col = find_S()
-visited = []
 prev_visited = ()
 cur_pipe = ""
 count = 0
